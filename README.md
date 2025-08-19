@@ -19,9 +19,6 @@ Diese Analyse verwendet **SHAP (SHapley Additive exPlanations)** zur Erklärung 
 - **False Positive/Negative Analyse** zur Modellvalidierung
 - **Wahrscheinlichkeits- und Logit-Raum Visualisierungen**
 
-
-⚠️ **Wichtig:** Der Datensatz ist aus Lizenzgründen nicht im Repository enthalten und muss separat heruntergeladen werden.
-
 1. **Repository klonen:**
    ```bash
    git clone https://github.com/GitWithJosh/shap-explainable-analysis.git
