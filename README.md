@@ -41,7 +41,6 @@ Diese Analyse verwendet **SHAP (SHapley Additive exPlanations)** zur Erklärung 
 1. **Repository klonen:**
    ```bash
    git clone https://github.com/GitWithJosh/shap-explainable-analysis.git
-   cd shap_demonstration
    ```
 
 2. **Datensatz herunterladen:**
