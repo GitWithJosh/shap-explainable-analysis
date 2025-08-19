@@ -19,7 +19,7 @@ Diese Analyse verwendet **SHAP (SHapley Additive exPlanations)** zur Erklärung 
 - **False Positive/Negative Analyse** zur Modellvalidierung
 - **Wahrscheinlichkeits- und Logit-Raum Visualisierungen**
 
-### Quick Start Anweisungen
+### 📝 Quick Start Anweisungen
 
 1. **Repository klonen:**
    ```bash
