@@ -10,22 +10,6 @@ Dieses Repository enthält eine umfassende Analyse zur Erklärung von Machine Le
 
 **[Give Me Some Credit](https://www.kaggle.com/c/GiveMeSomeCredit/overview)** - Kaggle Competition Datensatz
 
-### 📋 Variable Beschreibung
-
-| Variable Name | Beschreibung |
-|---------------|--------------|
-| SeriousDlqin2yrs (Target) | Person hatte 90+ Tage Zahlungsrückstand oder schlimmer |
-| RevolvingUtilizationOfUnsecuredLines | Gesamtsaldo auf Kreditkarten und persönlichen Kreditlinien geteilt durch Kreditlimits |
-| age | Alter des Kreditnehmers in Jahren |
-| NumberOfTime30-59DaysPastDueNotWorse | Anzahl der 30-59 Tage Zahlungsrückstände in den letzten 2 Jahren |
-| DebtRatio | Monatliche Schuldenzahlungen, Unterhalt, Lebenshaltungskosten geteilt durch monatliches Bruttoeinkommen |
-| MonthlyIncome | Monatliches Einkommen |
-| NumberOfOpenCreditLinesAndLoans | Anzahl offener Kredite und Kreditlinien |
-| NumberOfTimes90DaysLate | Anzahl der 90+ Tage Zahlungsrückstände |
-| NumberRealEstateLoansOrLines | Anzahl Hypotheken- und Immobilienkredite |
-| NumberOfTime60-89DaysPastDueNotWorse | Anzahl der 60-89 Tage Zahlungsrückstände in den letzten 2 Jahren |
-| NumberOfDependents | Anzahl Abhängige in der Familie |
-
 ### 🎯 Methodik
 
 Diese Analyse verwendet **SHAP (SHapley Additive exPlanations)** zur Erklärung von Machine Learning-Vorhersagen. Das implementierte **LightGBM-Modell** wird durch verschiedene XAI-Techniken interpretierbar gemacht:
