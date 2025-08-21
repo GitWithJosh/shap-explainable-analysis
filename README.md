@@ -21,35 +21,37 @@ Diese Analyse verwendet **SHAP (SHapley Additive exPlanations)** zur Erklärung 
 
 ### 📝 Quick Start Anweisungen
 
-1. **Repository klonen:**
-   ```bash
-   git clone https://github.com/GitWithJosh/shap-explainable-analysis.git
-   ```
+Wählen Sie eine der folgenden Optionen für den Einstieg:
 
-2. **Datensatz herunterladen:**
-   - Besuchen Sie die [Give Me Some Credit Kaggle Competition](https://www.kaggle.com/c/GiveMeSomeCredit/data)
-   - Melden Sie sich bei Kaggle an (kostenlos)
-   - Laden Sie die folgenden Dateien herunter:
-     - `cs-training.csv`
-     - `cs-test.csv`
-     - `Data Dictionary.xls`
-     - `sampleEntry.csv`
-   - Erstellen Sie einen Ordner namens `GiveMeSomeCredit/` im Projektverzeichnis
-   - Legen Sie alle heruntergeladenen Dateien in diesen Ordner
+#### **Option 1: Jupyter Notebook**
 
-3. **Abhängigkeiten installieren:**
+1. **Abhängigkeiten installieren:**
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn lightgbm shap jupyter
    ```
-
-4. **Jupyter Notebook starten:**
+2. **Datensatz herunterladen:**
+   - Besuchen Sie die [Give Me Some Credit Kaggle Competition](https://www.kaggle.com/c/GiveMeSomeCredit/data)
+   - Melden Sie sich bei Kaggle an (kostenlos)
+   - Laden Sie die Dateien `cs-training.csv`, `cs-test.csv`, `Data Dictionary.xls`, `sampleEntry.csv` herunter
+   - Erstellen Sie einen Ordner `GiveMeSomeCredit/` im Projektverzeichnis und legen Sie die Dateien dort ab
+3. **Jupyter Notebook starten:**
    ```bash
+   cd notebook
    jupyter notebook shap_demonstration.ipynb
+   ```
 
-5. **Optional: Streamlit Web-App starten:**
+#### **Option 2: Streamlit Web-App**
+
+1. **Abhängigkeiten installieren:**
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn lightgbm shap streamlit
+   ```
+2. **Datensatz wie oben herunterladen und ablegen**
+3. **Web-App starten:**
    ```bash
    cd app
    python start_app.py
+   ```
 
 ### 📄 Lizenz
 
