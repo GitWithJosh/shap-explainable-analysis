@@ -46,6 +46,11 @@ Diese Analyse verwendet **SHAP (SHapley Additive exPlanations)** zur Erklärung 
    ```bash
    jupyter notebook shap_demonstration.ipynb
 
+5. **Optional: Streamlit Web-App starten:**
+   ```bash
+   cd app
+   python start_app.py
+
 ### 📄 Lizenz
 
 Dieses Projekt ist für Bildungszwecke erstellt. Der verwendete Datensatz stammt von Kaggle unter deren Nutzungsbedingungen.
