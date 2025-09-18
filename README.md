@@ -44,7 +44,7 @@ Wählen Sie eine der folgenden Optionen für den Einstieg:
 
 1. **Abhängigkeiten installieren:**
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn lightgbm shap streamlit
+   pip install pandas numpy matplotlib seaborn scikit-learn lightgbm shap streamlit plotly
    ```
 2. **Datensatz wie oben herunterladen und ablegen**
 3. **Web-App starten:**

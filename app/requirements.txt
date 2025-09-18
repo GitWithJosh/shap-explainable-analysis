@@ -1,10 +1,20 @@
-streamlit
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-lightgbm
-shap
-plotly
-scipy
+# SHAP Explainable AI - Core Dependencies
+# Streamlit Web-App Framework
+streamlit>=1.28.0
+
+# Machine Learning & Data Science
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+
+# Explainable AI
+shap>=0.42.0
+
+# Visualisierung
+matplotlib>=3.5.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Utilities
+scipy>=1.9.0
